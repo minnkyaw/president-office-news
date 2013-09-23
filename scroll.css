@@ -1,0 +1,93 @@
+div.scrollholder
+{
+    position: relative;
+    width: 248px; height: 330px;
+    overflow: auto;
+    z-index: 1;
+    background-color: #fff;
+}
+
+div.scroll
+{
+    position: absolute;
+    left: 0; top: 0;
+    width: 95%;
+    z-index: 2;
+}
+
+/* <Scroll> */
+div.track
+{
+    position: relative;
+    float:right;
+    top: 0; 
+    width: 11px; height: 100%;
+    font-size: 0;
+    z-index: 3;
+    background: #fafafa;
+	border:solid 1px #eee;
+}
+
+div.drag_bar
+{
+    position: absolute;
+    width: 100%; height: 14px;
+    cursor: pointer;
+    z-index: 4;
+    background: lightblue;
+-moz-border-radius: 5px;/*Firefox*/
+-webkit-border-radius: 5px;/*Safari, Chrome*/
+border-radius: 5px;
+}
+div.drag_bar:hover{
+	background: #66a;
+}
+
+/*==============================================================*/
+body {margin:0; padding:0; background:#fff}
+#mmpo_news { font:12px Arial, Helvetica, sans-serif;}
+#mmpo_news a {text-decoration:none;}
+#mmpo_news a:hover{ text-decoration:underline;}
+
+.views-field {
+	padding:5px 10px;
+	border-bottom:solid 1px #fafafa;	
+}
+
+h2 {
+	font:bold 18px Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:8px 4px;
+	color:#036;
+	width:240px;
+	border-bottom:solid 1px #CCCCCC;
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none;
+}
+
+#mmpo_news{
+	width:216px;
+	text-wrap:normal;
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none;
+}
+a.readmore {
+	padding:5px 10px;
+	text-align:center;
+	background:#0FF;
+	font-weight:bold;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+a.readmore:hover {
+	background:#00A;
+	color:#fff;
+}
